@@ -1,7 +1,24 @@
-from validaciones import * #NO USAR EL ASTERISCO, LLAMAR DE A UNA ANTES DE ENTREGAR
-from menu import *
-from utilidades import *
-from analisis import *
+from validaciones import (
+    validar_entero,
+    ingresar_contrasena,
+    validar_nivel_seguridad
+)
+
+from menu import mostrar_menu
+
+from utilidades import (
+    mostrar_cantidad_caracteres,
+    calcular_porcentaje
+)
+
+from analisis import (
+    pedir_caracter,
+    buscar_caracter,
+    invertir_cadena,
+    verificar_palindromo,
+    ordenar_contrasena,
+    reporte_estadistico
+)
 
 bandera_contraseña = False #cuando ingresen el 1 , se transforma ls bandera y puedo acceder a las opciones del menu 2 a 8  
 bandera_programa = True

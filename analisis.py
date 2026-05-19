@@ -1,5 +1,7 @@
-from validaciones import *
-from utilidades import *
+from validaciones import contar_tipo_caracteres
+
+from utilidades import calcular_porcentaje
+
 # 4) Buscar carácter específico 
 def pedir_caracter() -> str:
     """Función que pide y valida el ingreso de un caracter

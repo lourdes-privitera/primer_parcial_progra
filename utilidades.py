@@ -1,4 +1,4 @@
-from validaciones import * #SACAR ASTERISCO Y MENCIONAR A LAS FUNCIONES ESPECIFICAS QUE LLAMO ANTES DE PRESENTAR
+from validaciones import contar_tipo_caracteres 
 
 # 3) Contar tipos de caracteres
 def mostrar_cantidad_caracteres(cadena:str) -> None:
