@@ -122,7 +122,7 @@ def validar_letra(cadena:str) -> bool:
             bandera_letra = True
 
     return bandera_letra
-#-------------------------------------------------------FALTA PUSHEAR ESTO
+
 # 2) Validar nivel de seguridad  
 #ERA MUY REITERATIVO EL CODIGO PARA HACER UNA FUNCION POR TIPO DE CARACTER...SIMPLIFIQUE CON UNA SOLA FUNCIÓN
 
