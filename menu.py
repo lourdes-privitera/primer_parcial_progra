@@ -1,3 +1,4 @@
+#El programa deberá mostrar el siguiente menú: 
 def mostrar_menu():
     print("")  
     print("--SISTEMA DE PROCESAMIENTO DE CONTRASEÑAS--")    
@@ -10,7 +11,3 @@ def mostrar_menu():
     print("7.   Verificar si es palindromo") 
     print("8.   Ordenar caracteres de la contraseña")
     print("9.   Salir")
-    print("")
-
-
-#print(mostrar_menu())
